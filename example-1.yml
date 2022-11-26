@@ -1,0 +1,29 @@
+- prefixes: ["1.2.3.4/32","4.4.4.0/24"]
+  annotations:
+    - date: 26/11/2022
+      author: jon hadfield <jon@lessknown.co.uk>
+      notes:
+        - a single line note
+- prefix: 10.0.0.0/24
+  annotations:
+    - date: 26/11/2022
+      author: jon hadfield <jon@lessknown.co.uk>
+      notes:
+        - note 1
+        - note 2
+- prefix: 192.168.4.0/25
+  annotations:
+    - date: 26/11/2022
+      author: jon hadfield <jon@lessknown.co.uk>
+      notes:
+        - a subnet of an existing prefix
+    - date: 26/11/2022
+      author: john doe <johndoe@example.com>
+      notes:
+        - a note from john doe
+- prefix: 192.168.4.0/25
+  annotations:
+    - date: 26/10/2020
+      author: jane doe <janedoe@example.com>
+      notes:
+        - a subnet of an existing prefix
