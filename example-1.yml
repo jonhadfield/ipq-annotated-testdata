@@ -4,14 +4,14 @@
       author: jon hadfield <jon@lessknown.co.uk>
       notes:
         - a single line note
-- prefix: 10.0.0.0/24
+- prefixes: ["10.0.0.0/24"]
   annotations:
     - date: 26/11/2022
       author: jon hadfield <jon@lessknown.co.uk>
       notes:
         - note 1
         - note 2
-- prefix: 192.168.4.0/25
+- prefix: ["192.168.4.0/25"]
   annotations:
     - date: 26/11/2022
       author: jon hadfield <jon@lessknown.co.uk>
@@ -21,7 +21,7 @@
       author: john doe <johndoe@example.com>
       notes:
         - a note from john doe
-- prefix: 192.168.4.0/25
+- prefix: ["192.168.4.0/27"]
   annotations:
     - date: 26/10/2020
       author: jane doe <janedoe@example.com>
